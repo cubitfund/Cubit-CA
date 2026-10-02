@@ -1,0 +1,37 @@
+# CUBIT contracts
+
+# Secrets and local credentials (never publish)
+.env
+.env.*
+!.env.example
+*.password
+*.keystore
+keystore/
+keystores/
+*.pem
+*.key
+secrets/
+
+# Foundry build output and broadcast records (local paths, timings, raw transactions)
+out/
+cache/
+broadcast/
+
+# Deployment manifests that are local or not promoted
+deployments/*.candidate.json
+deployments/*.local.json
+deployments/*.verified.tmp
+deployments/31337*
+
+# Analysis tool outputs
+crytic-export/
+medusa-corpus*/
+mutation_campaign/
+slither_results.json
+.certora_internal/
+__pycache__/
+*.pyc
+*.log
+
+node_modules/
+.DS_Store

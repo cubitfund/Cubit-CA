@@ -1,0 +1,15 @@
+{
+  "chainId": 1,
+  "note": "Launchpad v2 quote table for Ethereum mainnet, set on 28/09/2026 from that day's prices (Chainlink ETH/USD 2666.58, BTC/USD and WBTC/BTC, USDC and USDT at 1; the Ondo stocks from their Uniswap v3 USDC pools): every launch value is worth 3.75 ETH (about 10,000 USD). launchValue is in the quote's base units; usdPriceCents is the price used, in US cents.",
+  "quotes": [
+    {"symbol": "ETH", "address": "0x0000000000000000000000000000000000000000", "decimals": 18, "launchValue": "3750000000000000000", "usdPriceCents": 266658},
+    {"symbol": "USDC", "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", "decimals": 6, "launchValue": "10000000000", "usdPriceCents": 100},
+    {"symbol": "USDT", "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "decimals": 6, "launchValue": "10000000000", "usdPriceCents": 100},
+    {"symbol": "WBTC", "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", "decimals": 8, "launchValue": "12030000", "usdPriceCents": 8312500},
+    {"symbol": "NVDAon", "address": "0x2D1F7226Bd1F780AF6B9A49DCC0aE00E8Df4bDEE", "decimals": 18, "launchValue": "43400000000000000000", "usdPriceCents": 23050},
+    {"symbol": "SPCXon", "address": "0xc9eef266834730340A55B6CC24621B31BAF55581", "decimals": 18, "launchValue": "68000000000000000000", "usdPriceCents": 14714},
+    {"symbol": "TSLAon", "address": "0xf6b1117ec07684D3958caD8BEb1b302bfD21103f", "decimals": 18, "launchValue": "27600000000000000000", "usdPriceCents": 36250},
+    {"symbol": "AAPLon", "address": "0x14c3abF95Cb9C93a8b82C1CdCB76D72Cb87b2d4c", "decimals": 18, "launchValue": "29400000000000000000", "usdPriceCents": 34030},
+    {"symbol": "GOOGLon", "address": "0xbA47214eDd2bb43099611b208f75E4b42FDcfEDc", "decimals": 18, "launchValue": "29100000000000000000", "usdPriceCents": 34380}
+  ]
+}

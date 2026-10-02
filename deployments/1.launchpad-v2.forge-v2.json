@@ -1,0 +1,55 @@
+{
+  "bandLib": "0x307c5AF502f17ac9949def03A7F431AcB761866a",
+  "chainId": 1,
+  "deployBlock": 26077037,
+  "forge": "0x9190fE468d21D9B49dcF23a87CB0aeaAF8C80E0f",
+  "forgeLaunchFee": 5000000000000000,
+  "forgeRuntimeCodeHash": "0x12e8eeaacad269990801472c5a834359c65b1c2c248e1d2545f3088199b0139d",
+  "governanceVault": "0x441673C9f549Ce4a8D1Da222a361c44Ff7b424CA",
+  "hook": "0xb64231a7a23efe2531C46B2d35A54BaC7Fed58Cc",
+  "hookCreationCodeHash": "0x8dedb236ad857f3a381cb12d8c5878b769346e33c08d0de6d5339af06f692ce2",
+  "launchValues": [
+    3750000000000000000,
+    10000000000,
+    10000000000,
+    12030000,
+    "43400000000000000000",
+    "68000000000000000000",
+    "27600000000000000000",
+    "29400000000000000000",
+    "29100000000000000000"
+  ],
+  "previousForge": "0x4B9F8E9C16899B7aF9dbBca3F062D8f46fe5dCbF",
+  "quoteSymbols": [
+    "ETH",
+    "USDC",
+    "USDT",
+    "WBTC",
+    "NVDAon",
+    "SPCXon",
+    "TSLAon",
+    "AAPLon",
+    "GOOGLon"
+  ],
+  "quoteWallLib": "0x7339af6282b0Fccff510c0AD7255b2e9A6468EE5",
+  "quotes": [
+    "0x0000000000000000000000000000000000000000",
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "0x2D1F7226Bd1F780AF6B9A49DCC0aE00E8Df4bDEE",
+    "0xc9eef266834730340A55B6CC24621B31BAF55581",
+    "0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+    "0x14c3abF95Cb9C93a8b82C1CdCB76D72Cb87b2d4c",
+    "0xbA47214eDd2bb43099611b208f75E4b42FDcfEDc"
+  ],
+  "v2": "0x08c520172bdB8a61c6b93225ae00Eb90284BAd04",
+  "transactions": [
+    "0x6ee00614dc74f432344a66088ae4c7fbbb37ea5360f70c939d1b711ec0e3e01c",
+    "0x2fdadc84ebcbc6f3e87d26ed4e04fc0537a2c4d309baad096847050fb99e119d",
+    "0x9d28aa8b4aa4ff5199eedac7bd2bbc1d9a713588bcc5cc1324cb281a7e3927e0"
+  ],
+  "runtimeVerified": true,
+  "broadcastVerified": true,
+  "verification": "Ethereum mainnet, deployed on 2026-09-28 (blocks 26077037-26077039), checked the same day: the three transactions succeeded; the Forge's runtime code hash on chain equals the one recorded at broadcast; QuoteWallLib's code hash equals Sepolia's (same CREATE2 address); hookCreationCodeHash equals the app's linked CubitQuoteHook template; the quote table and launch values read on chain equal deployments/quotes/1.json; launch fee 0.005 ETH; governance vault equal to the first launchpad's; registry forge() names it and enabledFeatures is 5 (bit 8 off until the team's activate(8))."
+}

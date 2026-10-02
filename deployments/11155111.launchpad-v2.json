@@ -1,0 +1,55 @@
+{
+  "bandLib": "0x307c5AF502f17ac9949def03A7F431AcB761866a",
+  "chainId": 11155111,
+  "deployBlock": 11798952,
+  "forge": "0x983E31ee9b82C837C1b5D53bdf44c8f1eaE8527c",
+  "forgeLaunchFee": 5000000000000000,
+  "forgeRuntimeCodeHash": "0xc84e8680a1eae8434b94d61fce3b68cb77fd3223f3fc9781c8ae2df19a48279f",
+  "governanceVault": "0x5b332559029E7e0e77C857f20554a248B0226f79",
+  "hook": "0x528Fc03fED4AdE35590B9eAf0abD4516730c18cC",
+  "hookCreationCodeHash": "0x8dedb236ad857f3a381cb12d8c5878b769346e33c08d0de6d5339af06f692ce2",
+  "launchValues": [
+    3750000000000000000,
+    15000000000,
+    15000000000,
+    15000000,
+    "80000000000000000000",
+    "50000000000000000000",
+    "35000000000000000000",
+    "60000000000000000000",
+    "60000000000000000000"
+  ],
+  "previousForge": "0x2ddb883339282d6487Ffc091774AD1b0b55907F9",
+  "quoteSymbols": [
+    "ETH",
+    "USDC",
+    "USDT",
+    "WBTC",
+    "NVDAon",
+    "SPCXon",
+    "TSLAon",
+    "AAPLon",
+    "GOOGLon"
+  ],
+  "quoteWallLib": "0x7339af6282b0Fccff510c0AD7255b2e9A6468EE5",
+  "quotes": [
+    "0x0000000000000000000000000000000000000000",
+    "0x75Ee89e33401126c0C02Bccd4Ec79c4b5380af43",
+    "0x3A3A5285EEcebF4AdE5992fc96A2bdD187a2f21B",
+    "0xf56AbFc98893A309998538a1a50077398675484b",
+    "0xD991e14d8305B16Aa3A09eD3d5577dE8fC26090f",
+    "0xdAec44e2AD3AC34b07bF611D23DdC3dAf8c42168",
+    "0x5053440fdCE1Eb99C24FA4BA3f78BFD75df1baab",
+    "0x4C0872267e155CdD3B00C6016271EEaC86D580E0",
+    "0x21654Beb673c05925D90B044e3D6dEca13A30758"
+  ],
+  "v2": "0xdB5969ccE66cE788281249F826FF5F0c5d70C582",
+  "transactions": [
+    "0x23bf7ce0c377431d96d95185a1e18c061a6857b2b43d8c6ce5774596ecad5b20",
+    "0x806ee18157fe0aa0f5acbeeec95eb3c7994f602cda86cb45ceb89a86bdc105aa",
+    "0x8c636f2cfade444c4d09607e350bcc5a7e85223c37ee9037f65d6f8cbf672271"
+  ],
+  "runtimeVerified": true,
+  "broadcastVerified": true,
+  "verification": "Sepolia test deployment, checked on 2026-09-28 (block 11798958 onward): Forge runtime code hash equal to the one recorded at broadcast, registry forge() names it, governance vault equal to the first launchpad's, hookCreationCodeHash equal to the app's linked CubitQuoteHook template, all 3 deployment transactions succeeded."
+}

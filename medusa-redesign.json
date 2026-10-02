@@ -1,0 +1,87 @@
+{
+  "_comment": "Medusa campaign over the redesigned release: the handler and the four invariants of test/redesign/invariant, through audit/medusa-redesign/RedesignMedusa.sol (its constructor runs setUp, its methods re-expose the handler's actions). Only those methods and the invariant_* checks are whitelisted, so a random call cannot reset a sequence. Gas limits follow foundry.toml: the setup mines the hook address and one sale may empty many walls. Run from the repository root with fresh build-info, naming the harness explicitly or it is missing from the build-info: FOUNDRY_TEST=audit/medusa-redesign forge build --build-info audit/medusa-redesign/RedesignMedusa.sol, delete build-info files that lack an output key (crytic-compile 0.4.2 cannot read them), then FOUNDRY_TEST=audit/medusa-redesign medusa fuzz --config medusa-redesign.json. Negative control: the same file with target RedesignMedusaNegativeControl (and that prefix in the whitelist, plus invariant_negativeControl_noSaleEverSucceeds()) must report FAILED.",
+  "fuzzing": {
+    "workers": 2,
+    "workerResetLimit": 50,
+    "timeout": 0,
+    "testLimit": 1000000,
+    "callSequenceLength": 100,
+    "corpusDirectory": "medusa-corpus-redesign",
+    "coverageEnabled": true,
+    "targetContracts": [
+      "RedesignMedusa"
+    ],
+    "targetContractsBalances": [
+      "0x0"
+    ],
+    "constructorArgs": {},
+    "deployerAddress": "0x30000",
+    "senderAddresses": [
+      "0x10000",
+      "0x20000",
+      "0x30000"
+    ],
+    "blockNumberDelayMax": 60,
+    "blockTimestampDelayMax": 172800,
+    "blockGasLimit": 3000000000,
+    "transactionGasLimit": 3000000000,
+    "testing": {
+      "stopOnFailedTest": true,
+      "testAllContracts": false,
+      "testViewMethods": true,
+      "assertionTesting": {
+        "enabled": true,
+        "panicCodeConfig": {
+          "failOnAssertion": true
+        }
+      },
+      "propertyTesting": {
+        "enabled": false,
+        "testPrefixes": [
+          "invariant_"
+        ]
+      },
+      "optimizationTesting": {
+        "enabled": false
+      },
+      "targetFunctionSignatures": [
+        "RedesignMedusa.medusaBuyExactIn(uint256,uint256)",
+        "RedesignMedusa.medusaBuyExactOut(uint256,uint256)",
+        "RedesignMedusa.medusaSellExactIn(uint256,uint256)",
+        "RedesignMedusa.medusaSellExactOut(uint256,uint256)",
+        "RedesignMedusa.medusaRoundTrip(uint256,uint256)",
+        "RedesignMedusa.medusaRawSell(uint256,uint256,uint256)",
+        "RedesignMedusa.medusaRawBuy(uint256,uint256)",
+        "RedesignMedusa.medusaDeliverAbsorbed(uint256)",
+        "RedesignMedusa.medusaClaimTeam(uint256)",
+        "RedesignMedusa.medusaStake(uint256,uint256)",
+        "RedesignMedusa.medusaWithdraw(uint256,uint256,uint256)",
+        "RedesignMedusa.medusaClaimCubit(uint256,uint256)",
+        "RedesignMedusa.medusaFundReserve(uint256,uint256)",
+        "RedesignMedusa.medusaDonateToVault(uint256,uint256)",
+        "RedesignMedusa.medusaReplaceVault()",
+        "RedesignMedusa.medusaWarp(uint256)",
+        "RedesignMedusa.medusaExternalLiquidity(uint256,int256)",
+        "RedesignMedusa.invariant_booksAndSupply()",
+        "RedesignMedusa.invariant_ethConservation()",
+        "RedesignMedusa.invariant_wallsAndBand()",
+        "RedesignMedusa.invariant_vaultsAndLens()"
+      ]
+    }
+  },
+  "compilation": {
+    "platform": "crytic-compile",
+    "platformConfig": {
+      "target": ".",
+      "solcVersion": "",
+      "exportDirectory": "",
+      "args": [
+        "--ignore-compile"
+      ]
+    }
+  },
+  "logging": {
+    "level": "info",
+    "logDirectory": ""
+  }
+}

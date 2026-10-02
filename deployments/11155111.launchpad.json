@@ -1,0 +1,32 @@
+{
+  "chainId": 11155111,
+  "deployBlock": 11710477,
+  "forge": "0x2ddb883339282d6487Ffc091774AD1b0b55907F9",
+  "forgeLaunchFee": 5000000000000000,
+  "governanceDeployer": "0xe2108D4a26F60279a9EC0f8a93e590599550a803",
+  "governanceLockDuration": 2592000,
+  "governanceLockExtension": 0,
+  "governanceVault": "0x5b332559029E7e0e77C857f20554a248B0226f79",
+  "hook": "0x528Fc03fED4AdE35590B9eAf0abD4516730c18cC",
+  "hookCreationCodeHash": "0x631ec0a40a086ca510d45d8678835c23891db518585b16985aa31737962d26c4",
+  "v2": "0xdB5969ccE66cE788281249F826FF5F0c5d70C582",
+  "runtimeVerified": true,
+  "broadcastVerified": true,
+  "runtimeCodeHashes": [
+    {
+      "contract": "CubitForge",
+      "address": "0x2ddb883339282d6487Ffc091774AD1b0b55907F9",
+      "keccak256": "0x3f5b83381279eca98caeff1585f95f3d55a081323eb0930dd5a686b973c33c2c"
+    },
+    {
+      "contract": "CubitGovernanceVault",
+      "address": "0x5b332559029E7e0e77C857f20554a248B0226f79",
+      "keccak256": "0x067e26c6dd3eeaa74a51e7c89989834bc639ccb693ae7cfac8899bcf0edc1e2f"
+    }
+  ],
+  "verificationBlock": 11710480,
+  "transactions": [
+    "0x621db1eb742e64a5fd54b3eaf7917e5f06818655e88c3f9f72194156812b1903",
+    "0xc1cd91abc956c7a1096fc6a0d0e3dc2c78ba1d8e779b1b21de4db9b677600b86"
+  ]
+}

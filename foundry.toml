@@ -1,0 +1,61 @@
+# CUBIT — Foundry configuration
+# Compiler settings are part of the verification record: keep them identical
+# between testnet, mainnet and the published bytecode hash.
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+script = "script"
+solc_version = "0.8.26"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 10
+via_ir = true
+bytecode_hash = "none"
+cbor_metadata = false
+ffi = false
+fs_permissions = [{ access = "read-write", path = "./deployments" }]
+gas_limit = "3000000000"
+
+
+# Default: quick local loop. Use `FOUNDRY_PROFILE=gate forge test` for the
+# acceptance gate (long fuzzing campaign).
+[fuzz]
+runs = 256
+max_test_rejects = 200_000
+
+[invariant]
+runs = 32
+# 64: some afterInvariant checks only run on runs of 64 handler calls or more.
+depth = 64
+fail_on_revert = true
+call_override = false
+show_metrics = true
+
+[profile.ci]
+fuzz = { runs = 4_096, max_test_rejects = 500_000 }
+invariant = { runs = 256, depth = 128, fail_on_revert = true }
+
+[profile.gate]
+fuzz = { runs = 100_000, max_test_rejects = 5_000_000 }
+invariant = { runs = 2_000, depth = 512, fail_on_revert = true }
+
+[rpc_endpoints]
+anvil = "http://127.0.0.1:8545"
+sepolia = "${SEPOLIA_RPC_URL}"
+mainnet = "${MAINNET_RPC_URL}"
+
+[etherscan]
+sepolia = { key = "${ETHERSCAN_API_KEY}", chain = 11155111 }
+mainnet = { key = "${ETHERSCAN_API_KEY}", chain = 1 }
+
+[lint]
+exclude_lints = ["block-timestamp", "unsafe-typecast", "screaming-snake-case-immutable", "screaming-snake-case-const", "mixed-case-variable", "mixed-case-function"]
+lint_on_build = false
+
+[fmt]
+line_length = 120
+tab_width = 4
+bracket_spacing = false
+int_types = "long"

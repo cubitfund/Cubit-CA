@@ -1,0 +1,98 @@
+{
+  "bandLib": "0xE8f11CA3847Bd877E867FD902cd52f02e93e1b78",
+  "chainId": 11155111,
+  "deployBlock": 11675989,
+  "enabledFeatures": 0,
+  "fee": 3000,
+  "forge": "0xA2FdAfea02E02D43EBEc1BfaBe24b1897b5187b5",
+  "forgeLaunchFee": 10000000000000000,
+  "guardian": "0xe2108D4a26F60279a9EC0f8a93e590599550a803",
+  "guardianExpiry": 1790265960,
+  "hook": "0x113c167050424B9F8226f2Bf2FAA22362521D8cC",
+  "initialSqrtPriceX96": "181534525946939564563387882930176",
+  "launch": "0x7B50EA0706e2d12eE6c34FD64328a9DB11EBe42f",
+  "launchTimestamp": 1789056480,
+  "lens": "0x86d3E0d43ef41f21C56501e95ea86753875FD462",
+  "moduleRevision": 0,
+  "poolId": "0x42731c530491f63c9c91af9a55f86b99ff3a5c6efc01de81a269ad796432d27d",
+  "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+  "release": "v1-v2-prepared",
+  "replaceableModules": true,
+  "router": "0xd80638020194a20d5F2691F174Af42A27ff463Ba",
+  "salt": "0x0000000000000000000000000000000000000000000000000000000000011bd6",
+  "teamAddress": "0xe2108D4a26F60279a9EC0f8a93e590599550a803",
+  "tickSpacing": 10,
+  "token": "0x3784415B1b8E3aABc07D8bd1cE7ee7c2B3D74759",
+  "v2": "0xDD9C2da969d677f52d1d27D19D791a78Deff12bC",
+  "vault": "0x4c595Df1144E8E8A1e5B7bA3B67099E37D968b0c",
+  "vaultLockDuration": 86400,
+  "weth": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+  "runtimeVerified": true,
+  "broadcastVerified": true,
+  "runtimeCodeHashes": [
+    {
+      "contract": "CubitToken",
+      "address": "0x3784415B1b8E3aABc07D8bd1cE7ee7c2B3D74759",
+      "keccak256": "0xe279962388393e0bf78eac3e8eb4ae2996db33813c1448b6a02190af170ca6ca"
+    },
+    {
+      "contract": "CubitHook",
+      "address": "0x113c167050424B9F8226f2Bf2FAA22362521D8cC",
+      "keccak256": "0x8297ac92101bf97daaf51973be6bd00bfa00c19c865c15d4e0d0ea47f2bcd996"
+    },
+    {
+      "contract": "CubitLens",
+      "address": "0x86d3E0d43ef41f21C56501e95ea86753875FD462",
+      "keccak256": "0x809f8a94b7a9dd29e541da28a587eecf4dbb758305617596dc6cea4ef4d10601"
+    },
+    {
+      "contract": "CubitRouter",
+      "address": "0xd80638020194a20d5F2691F174Af42A27ff463Ba",
+      "keccak256": "0x34378960f13a10e7fc7b6a28c77b386598dac95883bb6e2897d3a916dc8506f4"
+    },
+    {
+      "contract": "CubitVault",
+      "address": "0x4c595Df1144E8E8A1e5B7bA3B67099E37D968b0c",
+      "keccak256": "0xf4543d992823e217bf1367081b54c00c7a2f5b49637ecad159b1267dd2abadcd"
+    },
+    {
+      "contract": "CubitV2",
+      "address": "0xDD9C2da969d677f52d1d27D19D791a78Deff12bC",
+      "keccak256": "0x302704693ed240de2634dada5680abc1917ba568838362124625c721bcc7c3cd"
+    },
+    {
+      "contract": "CubitForge",
+      "address": "0xA2FdAfea02E02D43EBEc1BfaBe24b1897b5187b5",
+      "keccak256": "0xa004111dee0b6ca0e6bcc5cd3ec892cc5001f728d8a3c2f12d5e9c960107118e"
+    },
+    {
+      "contract": "CubitLaunch",
+      "address": "0x7B50EA0706e2d12eE6c34FD64328a9DB11EBe42f",
+      "keccak256": "0x2386e5f062be4aac2f2441c8c0002101ad5f38e953a200abb58bca06180685d2"
+    },
+    {
+      "contract": "BandLib",
+      "address": "0xE8f11CA3847Bd877E867FD902cd52f02e93e1b78",
+      "keccak256": "0x555177b146a4f9d6cc43c74472f91fd4f3146342b9d3d5c6935049321ece3031"
+    }
+  ],
+  "verificationBlock": 11676009,
+  "transactions": [
+    "0x233c9e7b13b5c8f1caf81bc49a8a9bbda8d057da349d41225db7584105c4ecf4",
+    "0xfc5aa2e94eeccaa5a0f7c946757c0d57f8b3a3bb49c8b3c6f8f0004edecdf4b1",
+    "0x0182c02d4ad51261e84ce0e952b309f88d785fcac2c40da7828a22b67a7db3a6",
+    "0xaa007ed0d6a50a91baafecd958a882e026ed0bd35eec8f8a3e9b7eef9b034694",
+    "0x95459020171685e5da018c5fba2daa5aa62aafb7565a663f71d03b6b58671dee",
+    "0x8f61cbdfd3527af14c2dd1ca456161cb5bc60c5c5901bf5a09d0a46fd84eeecb",
+    "0x0990779ad8ec5c21df941172702c52147c2d848f6a4729633315cc7b535c3a0e",
+    "0xd419ef73c1b7d9f7e4d8842d7b74a8e206eb100b1408afbf123b306b64635da1",
+    "0x0697d8e49ded71f53a50c002f1177efa207f51406bf917a19f6a0aa3629cb772",
+    "0xc2550b8b62812afa7a6ef0a77dc8d9b786df743a81268b6039703f712d19ce82",
+    "0xb67d3b949dd72efdf8c884c0052dd85f34a7a80bc4bcea24b317cad88b8ff8be",
+    "0xd605975de9e3835b6177b28821dc90c3add114993b0667c3a8d10967ce9dc463",
+    "0x37a526679e5918cd5b5e3f1e7c2b73ed8b9d60119221a8a06e59e507be453faa"
+  ],
+  "periphery": {
+    "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227"
+  }
+}

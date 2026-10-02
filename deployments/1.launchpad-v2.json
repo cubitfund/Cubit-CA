@@ -1,0 +1,64 @@
+{
+  "bandLib": "0x307c5AF502f17ac9949def03A7F431AcB761866a",
+  "chainId": 1,
+  "deployBlock": 26080453,
+  "forge": "0x8b745E0075c7C256c42c7DfdB3C235027E141Ca5",
+  "forgeLaunchFee": 5000000000000000,
+  "forgeRuntimeCodeHash": "0xe9a7b47eaf2b51054b245861619c02a2d91a4e1b3fca47dd46508f2098135efe",
+  "governanceVault": "0x441673C9f549Ce4a8D1Da222a361c44Ff7b424CA",
+  "hook": "0xb64231a7a23efe2531C46B2d35A54BaC7Fed58Cc",
+  "hookCreationCodeHash": "0x8dedb236ad857f3a381cb12d8c5878b769346e33c08d0de6d5339af06f692ce2",
+  "launchValues": [
+    3750000000000000000,
+    10000000000,
+    10000000000,
+    12030000,
+    "43400000000000000000",
+    "68000000000000000000",
+    "27600000000000000000",
+    "29400000000000000000",
+    "29100000000000000000"
+  ],
+  "previousForge": "0x9190fE468d21D9B49dcF23a87CB0aeaAF8C80E0f",
+  "quoteSymbols": [
+    "ETH",
+    "USDC",
+    "USDT",
+    "WBTC",
+    "NVDAon",
+    "SPCXon",
+    "TSLAon",
+    "AAPLon",
+    "GOOGLon"
+  ],
+  "quoteWallLib": "0x7339af6282b0Fccff510c0AD7255b2e9A6468EE5",
+  "quotes": [
+    "0x0000000000000000000000000000000000000000",
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "0x2D1F7226Bd1F780AF6B9A49DCC0aE00E8Df4bDEE",
+    "0xc9eef266834730340A55B6CC24621B31BAF55581",
+    "0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+    "0x14c3abF95Cb9C93a8b82C1CdCB76D72Cb87b2d4c",
+    "0xbA47214eDd2bb43099611b208f75E4b42FDcfEDc"
+  ],
+  "tokenFirstHookCreationCodeHash": "0x96e7f590e8bb67f45ed5fbdfa472089452063dd0a6d19c096f56957838f35917",
+  "tokenFirstWallLib": "0x5c5C68D099B6787c83E91F481b30B1ce7A769C2E",
+  "v2": "0x08c520172bdB8a61c6b93225ae00Eb90284BAd04",
+  "version": 3,
+  "transactions": [
+    "0x152b2441ee71f20c9208beba8f456cfaffbb38a799fd82b0cfb0a1568b6872dc",
+    "0x0b7144a15990a51855242ff3a454af4dc5738e75a7a584a1034753426ad82c5c"
+  ],
+  "previousForges": [
+    {
+      "forge": "0x9190fE468d21D9B49dcF23a87CB0aeaAF8C80E0f",
+      "deployBlock": 26077037,
+      "version": 2
+    }
+  ],
+  "runtimeVerified": true,
+  "broadcastVerified": true,
+  "verification": "Launchpad v3 (CubitForgeV3), checked by script/promote-launchpad-v3.py against https://ethereum-rpc.publicnode.com: the 2 broadcast transactions succeeded; the Forge's runtime code hash on chain equals the broadcast's; both hook templates on chain equal the candidate's; the libraries have code; fee and governance vault equal the replaced Forge's; the registry named the replaced Forge at that check (setForge followed at block 26080482). The replaced Forge's children stay listed through previousForges."
+}

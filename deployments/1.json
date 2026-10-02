@@ -1,0 +1,122 @@
+{
+  "allowAnyPrice": true,
+  "bandLib": "0x307c5AF502f17ac9949def03A7F431AcB761866a",
+  "broadcastVerified": true,
+  "chainId": 1,
+  "deployBlock": 26029504,
+  "deployer": "0xa252e2d2e9f337590d24aa2dfc3eb891028aa505",
+  "enabledFeatures": 0,
+  "fee": 100,
+  "hook": "0xb64231a7a23efe2531C46B2d35A54BaC7Fed58Cc",
+  "initialBuyCubit": 526108113121399541651328,
+  "initialBuyExpectedCubit": "526108113121399541651328",
+  "initialBuyMinCubit": 1000000000000000000,
+  "initialBuyWei": 100000000000000000,
+  "initialSqrtPriceX96": "187488052201108037105841172643840",
+  "launch": "0x122927181A636b673F337c6B9668d75A4A214E7C",
+  "launchBlock": 26035793,
+  "launchEthWei": 3750000000000000000,
+  "launchTimestamp": 1790113499,
+  "lens": "0x0a0a6e755900490258Eb7C2593F247c19c03D598",
+  "marketOpen": true,
+  "moduleRevision": 0,
+  "poolId": "0x1b06280de564ed56f69c7ae0dbfa50befcd1e8b94ac799814a131d33ae11a010",
+  "poolManager": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+  "release": "v1-v2-prepared",
+  "replaceableModules": true,
+  "rewardReserveAtLaunch": "4200000000000000000000000",
+  "router": "0x5a37794efb712A51Ef681B781dA5c6B44893e933",
+  "runtimeVerified": true,
+  "salt": "0x0000000000000000000000000000000000000000000000000000000000001567",
+  "teamAddress": "0xA252E2d2E9F337590D24Aa2dFc3eb891028AA505",
+  "tickSpacing": 10,
+  "token": "0x82CaFd89d4abB3e6ac3705F291D6907e7cED194c",
+  "v2": "0x08c520172bdB8a61c6b93225ae00Eb90284BAd04",
+  "vault": "0x45982c3aa120c2144Ea7b8cafB9f4D2BA7a9960a",
+  "vaultLockDuration": 86400,
+  "wallLib": "0x7A4CD811480a4550Ad558a7794655c1033d22EBD",
+  "wallPolicy": "40pct-current-plus-60pct-launch-at-deposit",
+  "wallRetracementBps": 6000,
+  "wallUnderMarketBps": 100,
+  "deploymentTransactions": [
+    "0x2feb3b25503fa794ff58a6e84b88e4d71e449bd820d34fee127d48492e3ef793",
+    "0xc78ad0a17d40449bf83743cf5cc96531393cef1602cb3a1442e8667ae1a76163",
+    "0xb874847b00581268e85e81759a0577ac1e153a223c4d6d56a3769e60250577c2",
+    "0x2912afe1815e920b625938123a9db1586eb3ac1d0892e18a875cdc312721a37f",
+    "0x6386076e5e3080c8c5ced5731f3477163c4f1312b4aedc654aee22a3a5986e20",
+    "0x32572dcdc83b3f7c92d9845125e0b4aa2189bff5b4e9917f03b3094d6c830cdf",
+    "0x560d39fd72071475a6d868e2184af17affc9971d8a8dc27bddc38a8327f0d719",
+    "0x1c1857241d32131f240df1d3fe872acb4b47b6bf5cc3242a3473615fdf3df6a4",
+    "0xcfb08d925c6d96f140344c93ae5d55a803d9d72acedc6531ea89ee9653628b1a",
+    "0x6be7b9f4403b95e913abb43e2124f07ca849215c91bcac73c1551f1c16064db6",
+    "0x47739c0bcc20f592c46f4066cf8524b8d9d4c3cf172e79a92664d11f32083263",
+    "0x7a1b48b5fe39c1aa32d87e7022fe70fb6cb643665145a8679925b04e2323827e"
+  ],
+  "runtimeCodeHashes": [
+    {
+      "contract": "CubitToken",
+      "address": "0x82CaFd89d4abB3e6ac3705F291D6907e7cED194c",
+      "keccak256": "0x648ba12063ae4a4d777118c1b49230f655df3d207feb6b71fd6e10adf0b50e34"
+    },
+    {
+      "contract": "CubitHook",
+      "address": "0xb64231a7a23efe2531C46B2d35A54BaC7Fed58Cc",
+      "keccak256": "0xa837cf28bce92da2b01f2db54d81641c9d45294f4e0ec76217c5e5603684a146"
+    },
+    {
+      "contract": "CubitLens",
+      "address": "0x0a0a6e755900490258Eb7C2593F247c19c03D598",
+      "keccak256": "0x6b2f7d2a613ea936b1ff76e91f5c19d5877839055dc95dd23761ae4559d53b56"
+    },
+    {
+      "contract": "CubitRouter",
+      "address": "0x5a37794efb712A51Ef681B781dA5c6B44893e933",
+      "keccak256": "0xb71909abc2396e4f0ce4d47eb932f4301fa89ba28ca2bce821aadf69cddad6df"
+    },
+    {
+      "contract": "CubitVault",
+      "address": "0x45982c3aa120c2144Ea7b8cafB9f4D2BA7a9960a",
+      "keccak256": "0x79687f6602359127785c72704fd94be5a5fc5af3aad787b5d3b8bb2744507ba2"
+    },
+    {
+      "contract": "CubitV2",
+      "address": "0x08c520172bdB8a61c6b93225ae00Eb90284BAd04",
+      "keccak256": "0xd682f65499821514199fc613617af162cb063149ead7064d4548a783f6caea54"
+    },
+    {
+      "contract": "CubitLaunch",
+      "address": "0x122927181A636b673F337c6B9668d75A4A214E7C",
+      "keccak256": "0x23f7767055c8fa1b3bd5c7b9d9faa6a5ef19097ef2094417180143b5c9941626"
+    },
+    {
+      "contract": "BandLib",
+      "address": "0x307c5AF502f17ac9949def03A7F431AcB761866a",
+      "keccak256": "0x99cb7f5f5292b49fdfe031b5e0cbbb98bbdd6c8c221fb070f1f1b4564c4f737e"
+    },
+    {
+      "contract": "WallLib",
+      "address": "0x7A4CD811480a4550Ad558a7794655c1033d22EBD",
+      "keccak256": "0x5795c42ba32c1ac84dca8faab4c2720c6e6c6252bd38b29dd94d9a0b10b0fb2f"
+    }
+  ],
+  "verificationBlock": 26039467,
+  "transactions": [
+    "0x2feb3b25503fa794ff58a6e84b88e4d71e449bd820d34fee127d48492e3ef793",
+    "0xc78ad0a17d40449bf83743cf5cc96531393cef1602cb3a1442e8667ae1a76163",
+    "0xb874847b00581268e85e81759a0577ac1e153a223c4d6d56a3769e60250577c2",
+    "0x2912afe1815e920b625938123a9db1586eb3ac1d0892e18a875cdc312721a37f",
+    "0x6386076e5e3080c8c5ced5731f3477163c4f1312b4aedc654aee22a3a5986e20",
+    "0x32572dcdc83b3f7c92d9845125e0b4aa2189bff5b4e9917f03b3094d6c830cdf",
+    "0x560d39fd72071475a6d868e2184af17affc9971d8a8dc27bddc38a8327f0d719",
+    "0x1c1857241d32131f240df1d3fe872acb4b47b6bf5cc3242a3473615fdf3df6a4",
+    "0xcfb08d925c6d96f140344c93ae5d55a803d9d72acedc6531ea89ee9653628b1a",
+    "0x6be7b9f4403b95e913abb43e2124f07ca849215c91bcac73c1551f1c16064db6",
+    "0x47739c0bcc20f592c46f4066cf8524b8d9d4c3cf172e79a92664d11f32083263",
+    "0x7a1b48b5fe39c1aa32d87e7022fe70fb6cb643665145a8679925b04e2323827e",
+    "0x2c70581b5a6355899e865e99ad9fc1c43008c8dfc509317807ee024c93d251a2"
+  ],
+  "launchTransactions": [
+    "0x2c70581b5a6355899e865e99ad9fc1c43008c8dfc509317807ee024c93d251a2"
+  ],
+  "periphery": {}
+}

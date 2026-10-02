@@ -1,0 +1,77 @@
+{
+  "_comment": "Medusa campaign over the launchpad v2 (audit/medusa-quote/QuoteMedusa.sol): QuoteHandler's actions on four children (ETH, two USDC, WBTC) and its invariant checks. Build: FOUNDRY_TEST=audit/medusa-quote forge build --build-info audit/medusa-quote/QuoteMedusa.sol, delete build-info files without an output key, then FOUNDRY_TEST=audit/medusa-quote medusa fuzz --config medusa-quote.json. Negative control: target QuoteMedusaNegativeControl (and its invariant_negativeControl_noTradeEverSucceeds() in the whitelist) must report FAILED.",
+  "fuzzing": {
+    "workers": 2,
+    "workerResetLimit": 50,
+    "timeout": 0,
+    "testLimit": 1000000,
+    "callSequenceLength": 100,
+    "corpusDirectory": "medusa-corpus-quote",
+    "coverageEnabled": true,
+    "targetContracts": [
+      "QuoteMedusa"
+    ],
+    "targetContractsBalances": [
+      "0x0"
+    ],
+    "constructorArgs": {},
+    "deployerAddress": "0x30000",
+    "senderAddresses": [
+      "0x10000",
+      "0x20000",
+      "0x30000"
+    ],
+    "blockNumberDelayMax": 60,
+    "blockTimestampDelayMax": 172800,
+    "blockGasLimit": 3000000000,
+    "transactionGasLimit": 3000000000,
+    "testing": {
+      "stopOnFailedTest": true,
+      "testAllContracts": false,
+      "testViewMethods": true,
+      "assertionTesting": {
+        "enabled": true,
+        "panicCodeConfig": {
+          "failOnAssertion": true
+        }
+      },
+      "propertyTesting": {
+        "enabled": false,
+        "testPrefixes": [
+          "invariant_"
+        ]
+      },
+      "optimizationTesting": {
+        "enabled": false
+      },
+      "targetFunctionSignatures": [
+        "QuoteMedusa.medusaBuyExactIn(uint256,uint256,uint256)",
+        "QuoteMedusa.medusaBuyExactOut(uint256,uint256,uint256)",
+        "QuoteMedusa.medusaSellExactIn(uint256,uint256,uint256)",
+        "QuoteMedusa.medusaSellExactOut(uint256,uint256,uint256)",
+        "QuoteMedusa.medusaRawSell(uint256,uint256,uint256,uint256)",
+        "QuoteMedusa.medusaTwoHop(uint256,uint256,uint256,uint256)",
+        "QuoteMedusa.medusaDeliverAbsorbed(uint256)",
+        "QuoteMedusa.medusaClaimTeam(uint256)",
+        "QuoteMedusa.medusaDonateClaims(uint256,uint256)",
+        "QuoteMedusa.medusaDonateRaw(uint256,uint256,uint256,bool)",
+        "QuoteMedusa.invariant_quoteBooksWallsBand()"
+      ]
+    }
+  },
+  "compilation": {
+    "platform": "crytic-compile",
+    "platformConfig": {
+      "target": ".",
+      "solcVersion": "",
+      "exportDirectory": "",
+      "args": [
+        "--ignore-compile"
+      ]
+    }
+  },
+  "logging": {
+    "level": "info",
+    "logDirectory": ""
+  }
+}

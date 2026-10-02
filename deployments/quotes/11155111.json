@@ -1,0 +1,15 @@
+{
+  "chainId": 11155111,
+  "note": "Test quotes (mintable by anyone, no value) for a launchpad v2 rehearsal.",
+  "quotes": [
+    { "symbol": "ETH", "address": "0x0000000000000000000000000000000000000000", "decimals": 18, "launchValue": "3750000000000000000" },
+    { "symbol": "USDC", "address": "0x75Ee89e33401126c0C02Bccd4Ec79c4b5380af43", "decimals": 6, "launchValue": "15000000000" },
+    { "symbol": "USDT", "address": "0x3A3A5285EEcebF4AdE5992fc96A2bdD187a2f21B", "decimals": 6, "launchValue": "15000000000" },
+    { "symbol": "WBTC", "address": "0xf56AbFc98893A309998538a1a50077398675484b", "decimals": 8, "launchValue": "15000000" },
+    { "symbol": "NVDAon", "address": "0xD991e14d8305B16Aa3A09eD3d5577dE8fC26090f", "decimals": 18, "launchValue": "80000000000000000000" },
+    { "symbol": "SPCXon", "address": "0xdAec44e2AD3AC34b07bF611D23DdC3dAf8c42168", "decimals": 18, "launchValue": "50000000000000000000" },
+    { "symbol": "TSLAon", "address": "0x5053440fdCE1Eb99C24FA4BA3f78BFD75df1baab", "decimals": 18, "launchValue": "35000000000000000000" },
+    { "symbol": "AAPLon", "address": "0x4C0872267e155CdD3B00C6016271EEaC86D580E0", "decimals": 18, "launchValue": "60000000000000000000" },
+    { "symbol": "GOOGLon", "address": "0x21654Beb673c05925D90B044e3D6dEca13A30758", "decimals": 18, "launchValue": "60000000000000000000" }
+  ]
+}
